@@ -10,8 +10,8 @@ module.exports = {
   },
   disk: {
     threshold: 1,
-    loop: 60000,
-    path: '/'
+    loop: 5000,
+    path: 'C:'
   },
   mem: {
     threshold: 10,

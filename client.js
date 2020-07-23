@@ -20,6 +20,7 @@ function diskModule(){
     let intPercent = Math.trunc( percent ); // turn to integer
     let percentDigit = percent.toFixed(0);
     let message = `${settings.server.hostname}\ndisk free: ${percentDigit}%`
+    console.log(message)
     if ( intPercent <= settings.disk.threshold ){
       postMessage(message)
     }
