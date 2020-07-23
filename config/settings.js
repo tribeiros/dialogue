@@ -9,8 +9,8 @@ module.exports = {
     endpoint: '/monitoring'
   },
   disk: {
-    threshold: 1,
-    loop: 5000,
+    threshold: 20,
+    loop: 60000 * 60,
     path: 'C:'
   },
   mem: {
